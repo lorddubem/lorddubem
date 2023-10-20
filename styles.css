@@ -1,0 +1,60 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins' sans-serif;
+} */
+
+.fontpage{
+    background-color: black;
+    padding-left: 6rem;
+    padding-left: 6rem; 
+}
+header nav, .L {
+    display: flex;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-option{
+    display: flex;
+   
+    gap: 3rem;
+    /* padding-left: 40rem;
+     */
+}
+.nav-option a li{
+    text-decoration: none;
+    list-style: none;
+   
+}
+.name p{
+    font-size: 1.8em;
+    font-weight: 3em;
+   
+}
+p, h1, h2 {
+    color: rgb(255, 255, 255);
+}
+.L{
+    align-items: center;
+    gap: 10px;
+   
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.Hero{
+    padding-top: 8em;
+    display: flex;
+    gap: 20em;
+}
+.my-pics img{
+    width: 18em;
+    height: 20em;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: aqua;
+}
