@@ -1,67 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <!-- the logo image -->
+      <!-- the logo image -->
 
-        <div class="logo">
-            <img src="img/P.E.png" alt="logo">
-        </div>
+      <div class="logo">
+        <img src="img/P.E.png" alt="logo" />
+      </div>
 
-        <!-- my nav bar -->
-        <div class="nav-bar">
-            <nav>
-                <a href=""><img src="img/githubappicon.webp" alt="git-icon"></a>
-               
-            </nav>
-            <nav>
-                 <a href=""><img src="img/good.jpg" alt="twitter-icon"></a>
-            </nav>
-
-        </div>
-        
+      <!-- my nav bar -->
+      <div class="nav-bar">
+        <nav>
+          <a href="https://github.com/lorddubem"
+            ><img src="img/githubappicon.webp" alt="git-icon"
+          /></a>
+        </nav>
+        <nav>
+          <a href="https://twitter.com/home"
+            ><img src="img/good.jpg" alt="twitter-icon"
+          /></a>
+        </nav>
+        <nav>
+          <a href=""><img src="img/watsapp icon.png" alt="watsapp-icon" /></a>
+        </nav>
+      </div>
     </header>
     <section class="body">
+      <!-- MY Animation design -->
 
-        <!-- MY Animation design -->
+      <div class="animation">
+        <h1 class="pop-up-text">Hello !!</h1>
+        <p id="typewriter">Am Prince Potter Divine</p>
+      </div>
 
-        <div class="animation">
-            <h1 class="pop-up-text">Hello !!</h1>
-            <p id="typewriter">Am Prince Potter Divine</p>
+      <!-- my hero content -->
+
+      <div class="hero">
+        <img src="img/pics.jpg" alt="my-photo" />
+
+        <div class="hero-text">
+          <p>
+            I am a web developer with a passion for creativity and
+            perfection.<br />
+          </p>
+
+          <p>
+            I started coding in 2022 and have a strong understanding of HTML,
+            CSS, JavaScript, and frontend frameworks. I also have little
+            experience with Node js and basic understanding of backend
+            framework. I enjoy experimenting with different technologies to
+            create useful software.
+          </p>
+
+          <p>
+            I am also active in developer communities, collaborating with
+            others, documenting my work, and sharing my experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="body" id="projects">
+      <div class="proj-text">
+        <h1>My projects</h1>
+        <p>cool stuffs i've worked on</p>
+      </div>
+
+      <div
+        class="p-box"
+        style="
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 2rem;
+          color: white;
+          padding-bottom: 3em;
+        "
+      >
+        <div class="card">
+          <div>GDG Aba website</div>
+          <div>Project description</div>
+          <div>Github icon and link</div>
+          <a
+            href="https://lorddubem.github.io/gdg-aba-demo-website/"
+            target="_blank"
+            style="display: block"
+            >Live site icon and link</a
+          >
         </div>
 
-        <!-- my hero content -->
+        <div class="card">
+          <div>Project name</div>
+          <div>Project description</div>
+          <div>Github icon and link</div>
+          <div>Live site icon and link</div>
+        </div>
 
-         <div class="hero">
+        <div class="card">
+          <div>Project name</div>
+          <div>Project description</div>
+          <div>Github icon and link</div>
+          <div>Live site icon and link</div>
+        </div>
 
-            <img src="img/pics.jpg" alt="my-photo">
+        <div class="card">
+          <div>Project name</div>
+          <div>Project description</div>
+          <div>Github icon and link</div>
+          <div>Live site icon and link</div>
+        </div>
 
-            <div class="hero-text">
-                <p>I am a web developer with a passion for creativity and perfection.<br>
-                </p>
+        <div class="card">
+          <div>Project name</div>
+          <div>Project description</div>
+          <div>Github icon and link</div>
+          <div>Live site icon and link</div>
+        </div>
 
-                <p> I started coding in 2022 and have a strong understanding of   HTML, CSS, JavaScript, and frontend frameworks. I also have little  experience with Node js and  basic understanding of backend framework. I enjoy experimenting with different technologies to create useful software.
-                </p>
+        <div class="card">
+          <div>Project name</div>
+          <div>Project description</div>
+          <div>Github icon and link</div>
+          <div>Live site icon and link</div>
+        </div>
+      </div>
 
-                <p> I am also active in developer communities, collaborating with others, documenting my work, and sharing my experiences.</p>
-            </div>
-           
-         </div>
-
-         <section class="projects">
-            <div class="proj-text">
-                <h1>My projects</h1>
-                <p>cool stuffs i've worked on</p>
-            </div>
-         </section>
+      <div class="Contact-info">
+        <h1>Contact me....</h1>
+        <p>let's get creative</p>
+      </div>
     </section>
-    <script src="index.js"></script>
-</body>
 
+    <script src="index.js"></script>
+  </body>
 </html>
