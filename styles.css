@@ -36,8 +36,8 @@ header{
     overflow: hidden;
 }
 img{
-    width: 3em;
-    height: 3.2em;
+    width: 6em;
+    height: 6.2em;
 }
 nav img{
     width: 1.8em;
@@ -89,6 +89,23 @@ nav img{
     letter-spacing: 0.6px;
     width: 520px
 }
-.proj-text h1{
+.proj-text h1, .contact-info h1{
     font-size: 30px;
 }
+.card{
+    border: 2px solid rgb(239,199,94);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    width: 15rem;
+    scroll-behavior: smooth;
+   
+}
+
+ 
+.card:hover{
+    color:black;
+    border-color: rgb(236, 230, 230);
+   background-color:  rgb(236, 182, 46);
+   border-radius: 3rem;
+}
+
